@@ -452,7 +452,7 @@ result.HasError(error => error.HasMetadataKey("MyKey"));
 result.HasError(error => error.HasMetadata("MyKey", metadataValue => (string)metadataValue == "MyValue")); 
 ```
 
-All ```HasError()``` methods have an optional out parameter result to access the found errorors. 
+All ```HasError()``` methods have an optional out parameter result to access the found errors. 
 
 ### Handling successes
 
